@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Step01_click.html</title>
+<script src="js/angular.js"></script>
+</head>
+<body>
+<button ng-click="msg='clicked'">눌러보셈</button>
+</body>
+</html>

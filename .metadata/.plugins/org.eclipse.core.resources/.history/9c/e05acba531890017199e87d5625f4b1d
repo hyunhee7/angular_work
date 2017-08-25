@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>hello.html</title>
+<!-- angular js 로딩하기 -->
+<script src="js/angular.js"></script>
+</head>
+<body>
+<h3>Hello</h3>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Step03_class2.html</title>
+<link rel="stylesheet" href="css/bootstrap.css" />
+<script src="js/angular.min.js"></script>
+<script>
+	var myApp=angular.module("myApp",[]);
+	myApp.controller("Ctrl1",["$scope",function($scope){
+		
+		
+	}]);
+</script>
+</head>
+<body>
+	<div class="container">
+	
+	</div>
+</body>
+</html>

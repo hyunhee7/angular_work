@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Step04_showHide.html</title>
+<script src="js/angular.min.js"></script>
+</head>
+<body ng-app>
+<input type="checkbox" ng-model="isShow"/>
+<img src="images/1.jpg" width="200" ng-show="isShow" />
+</body>
+</html>

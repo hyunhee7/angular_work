@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/bootstrap.css" />
+<script src="js/angular.min.js"></script>
+<style>
+
+</style>
+</head>
+<body ng-app>
+<div class="container">
+	<input type="checkbox" ng-model="isChecked"/>
+</div>
+</body>
+</html>

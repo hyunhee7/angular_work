@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+<meta charset="UTF-8">
+<title>Step02_controller.html</title>
+<script src="js/angular.min.js"></script>
+<script>
+	// angular 모듈 만들기
+	var myApp=angular.module("myApp",[]);
+	// Ctrl1 이라는 이름의 컨트롤러 만들기
+	myApp.controller("Ctrl1",["$scope", function($scope){ 
+		//$scope=conroller가 담당하고있는 영역
+		$scope.name="김구라";
+		$scope.clicked=function(){
+			
+		};
+	}]);
+	
+	//Ctrl2 이라는 이름의 컨트롤러 만들기
+	myApp.controller("Ctrl2",["$scope", function($scope){
+		$scope.name="원숭이";
+	}]);
+</script>
+</head>
+<body>
+<div ng-controller="Ctrl1">
+	<p>내 이름은: <strong>{{name}}</strong></p>	
+	<button ng-click="clicked">눌러보셈</button>
+</div>
+<div ng-controller="Ctrl2">
+	<p>내 이름은: <strong>{{name}}</strong></p>
+	
+</div>
+</body>
+</html>

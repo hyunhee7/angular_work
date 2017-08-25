@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Step02_controller.html</title>
+<script src="js/angular.min.js"></script>
+<script>
+	// angular 모듈 만들기
+	var myApp=angular.module("myApp",[]);
+</script>
+</head>
+<body>
+
+</body>
+</html>

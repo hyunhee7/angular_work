@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+<meta charset="UTF-8">
+<title>Step02_controller.html</title>
+<script src="js/angular.min.js"></script>
+<script>
+	// angular 모듈 만들기
+	var myApp=angular.module("myApp",[]);
+	// Ctrl1 이라는 이름의 컨트롤러 만들기
+	myApp.controller("Ctrl1",["$scope", function($scope){
+		$scope.msgs=["하나", "두울"];
+		$scope.clicked=function(){
+			console.log(text);
+			$scope.msg.push(text);
+		};		
+	}]);
+
+</script>
+</head>
+<body>
+	<div ng-controller="Ctrl1">
+		<input type="text" />
+		<button ng-click="clicked()">추가</button>
+		<ul>
+			<li ng-repeat="tmp in msgs">{{tmp}}</li>
+		</ul>
+	</div>
+</body>
+</html>
+
